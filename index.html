@@ -277,11 +277,7 @@
   <input type="color" id="colorTexto" value="#000000">
   <label>Color fondo:</label><input type="color" id="colorFondo" value="#ffffff"><br>
   <label>Tamaño de fuente:</label>
-  <div class="control-tamano">
-    <button onclick="ajustarTamano(-1)">-</button>
-    <input type="number" id="tamano" value="30" min="10" max="100">
-    <button onclick="ajustarTamano(1)">+</button>
-  </div><br>
+  <div class="control-tamano"> <input type="number" id="tamano" value="30" min="10" max="100"> </div><br>
   <label><input type="checkbox" id="sinFondo">Imagen sin fondo</label>
   <button onclick="generarImagen()">Generar Imagen</button>
   <button onclick="descargarImagen()">Descargar</button>
